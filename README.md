@@ -9,19 +9,28 @@ This project is a tutorial for building an Application using Spring Boot & Swagg
 4. User Entity & UserRepository classes which generate automatically APIs functions with the "spring-boot-starter-data-rest" spring boot dependency.
 5. There are Validations (with "spring-boot-starter-validation" spring boot dependency) over the "/users" API such as @NotNull, @Min and @Max.
 6. There are descriptions using the annotations @ApiModelProperty, @ApiOperation and @ApiParam
+7. The Swagger URL is http://localhost:8080/swagger-ui/
+
 
 
 
 This is how the "/users" API should look like:
 
+
 ![usersAPI](/images/usersAPI.png?raw=true)
+
 
 
 
 This is how the saveUser API should look like with Validations and Notes:
 
+
 ![saveUserAPIWithValidationsAndNotes](/images/saveUserAPIWithValidationsAndNotes.png?raw=true)
 
+
+
+
 This is how the "/custom" API should look like with Description and Example:
+
 
 ![customApiWithDescriptionAndExample](/images/customApiWithDescriptionAndExample.png?raw=true)
