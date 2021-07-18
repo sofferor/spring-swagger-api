@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api")
 //@Tag(name = "Custom service entity", description = "The custom API with description tag annotation")
-@ApiModel(value = "Custom service", description = "The custom API with description")
+//@ApiModel(value = "Custom service", description = "The custom API with description")
 public class CustomController {
 
     @RequestMapping(value = "/custom", method = RequestMethod.POST)
